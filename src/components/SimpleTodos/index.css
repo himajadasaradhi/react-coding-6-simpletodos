@@ -1,0 +1,46 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.main-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  overflow-y: auto;
+  background-size: cover;
+  width: 800px;
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  margin: 30px;
+  margin-top: 30px;
+  align-items: center;
+  border-radius: 15px;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'roboto';
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    background-color: #ffc2a0;
+    height: 100vh;
+    overflow-y: auto;
+    background-size: cover;
+    width: 700px;
+  }
+  .container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: 30px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 15px;
+  }
+}

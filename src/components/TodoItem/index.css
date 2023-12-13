@@ -1,0 +1,28 @@
+/* Write your CSS here */
+button {
+  color: #ff0b37;
+  background-color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #ff0b37;
+  border-style: solid;
+  width: 80px;
+  height: 30px;
+}
+p {
+  font-family: 'roboto';
+  margin-right: 50px;
+  font-weight: 400;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  margin: 0px;
+}
